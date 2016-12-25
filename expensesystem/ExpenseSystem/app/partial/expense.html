@@ -1,0 +1,80 @@
+﻿
+<div class="row" style="margin-top:4%">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-4 ">
+            <div class="col-lg-6 col-xs-11 col-md-6">
+                <input type="button" class="btn btn-primary" value="Reports" ng-click="ExpenseReports()" style="width:100%;" />
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="col-lg-6 col-lg-offset-4 ">
+
+   <form name="expenseForm" ng-submit="saveExpense();" class="col-lg-6 col-xs-11 col-md-6  table-bordered">
+            <h3>Save Expense</h3>
+            <input type="hidden" id="hidExpenseId" ng-model="expnse.Id" />
+            <input type="hidden" id="hidSiteId" ng-model="expnse.SiteId" />
+            <div class="form-group">
+                <label>Item Name : </label>
+            </div>
+            <div class="form-group">
+                <input name="expense" type="text" id="txtItem" required tabindex="1" class="form-control" ng-model="expnse.ItemName" />
+            </div>
+            <div class="form-group">
+                <label>Amount :  </label>
+            </div>
+            <div class="form-group">
+                <input type="number" required tabindex="2" class="form-control" ng-model="expnse.Amount" />
+            </div>
+            <div class="form-group">
+                <label>Paid By :  </label>
+            </div>
+            <div class="form-group">
+                <select id="ddlConsumers" required tabindex="3" class="form-control" ng-model="expnse.PaidBy">
+                    <option ng-repeat="consumer in consumersDDL" ng-selected="consumer.Id == expnse.PaidBy" value="{{consumer.Id}}">{{consumer.Name}}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Consumed By:</label>
+            </div>
+            <div class="form-group">
+                <label class="checkbox-inline" tabindex="4" ng-repeat="consumer in consumers">
+                    <input type="checkbox" class="checkbox" value="{{consumer.Id}}" ng-model="consumer.isChecked" ng-checked="consumer.isChecked">{{consumer.Name}}
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" tabindex="5" class="btn btn-default" value="Save Expense">
+                <input type="button" tabindex="6" class="btn btn-default" value="Add Consumer" ng-click="ConsumerPage()">
+            </div>
+            <div class="clearfix"></div>
+        </form>
+    </div>
+</div>
+
+
+
+<div class="container" ng-show="ExpenseDetails.length > 0">
+    <h3>Expense Detail</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Amount</th>
+                <th>Paid By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="ExpenseDetail in ExpenseDetails">
+                <td>{{ExpenseDetail.ItemName}}</td>
+                <td>{{ExpenseDetail.Amount}}</td>
+                <td>{{ExpenseDetail.Name}}</td>
+                <td><button ng-click="editExpense(ExpenseDetail.Id);" class="btn btn-default">Edit</button></td>
+                <td><button ng-click="deleteExpense(ExpenseDetail.Id);" class="btn btn-default">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="gridStyle" ng-grid="gridOptions">
+    </div>
+</div>
+

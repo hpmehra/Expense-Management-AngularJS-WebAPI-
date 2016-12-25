@@ -1,0 +1,292 @@
+﻿.divHeader {
+    background-color: #000;
+    border: 2px solid #e7e8e9;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.divTopNavBar {
+    height: 1px;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+}
+
+.headerText {
+    font-size: 15px !important;
+    padding-left: 5px !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    color: #fff;
+}
+
+.lineParent .eventBoxShadow {
+    border-bottom: 1px solid;
+}
+
+.lineParent {
+    z-index: 2;
+}
+
+    .lineParent:hover {
+        cursor: move;
+    }
+
+.eventColor {
+    background-color: #c4d0ad;
+    color: #000;
+    min-height: 20px;
+}
+
+.divEventHeight {
+    height: 150px;
+}
+
+.divEvent {
+    padding-top: 2px;
+}
+
+.marginTop-4 {
+    margin-top: 4px;
+}
+
+.fontWeightDropDownWidth {
+    width: 92%;
+}
+
+.popover {
+    width: 100%;
+}
+
+#divGeneralLayOutContentHeader div.eventBoxShadow .ui-resizable-handle, #divGeneralLayOutContentBody div.eventBoxShadow .ui-resizable-handle {
+    border: 0;
+}
+
+.divTopNavBar {
+    height: 1px;
+}
+
+#divLocatePops {
+    width: 100%;
+    position: relative;
+}
+
+#locateHolePops .modal-dialog {
+    width: 815px;
+}
+
+#divLocatePops .eventBoxShadow {
+    width: 25px;
+}
+
+#divLocatePops .divEvent {
+    position: absolute;
+}
+
+#divGeneralLayOutContentHeader, #divGeneralLayOutContentBody {
+    position: relative;
+}
+
+.defaultBgColor {
+    z-index: 1;
+    line-height: 14px;
+    min-height: 20px !important;
+    background-color: #fff;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
+    float: left;
+}
+
+.defaultBgColorBox {
+    line-height: 14px;
+    min-height: 20px !important;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
+    float: left;
+    z-index: 1;
+}
+
+.eventBoxShadow {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+#eventObjSettings {
+    top: 192px;
+    left: 785px;
+}
+
+.designPopOverTopMargin {
+    top: 126px;
+}
+
+.popover > .arrow {
+    left: 23% !important;
+}
+
+.hiddenVisibility {
+    visibility: hidden;
+}
+
+.hrRule {
+    border: 0;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 15px;
+    min-height: 70px;
+}
+
+hr {
+    margin-bottom: 0 !important;
+}
+
+#generalBody {
+    height: 1056px;
+}
+
+#generalHeader, #generalFooter {
+    max-height: 100px;
+    position: relative;
+}
+
+.float-right {
+    float: right;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.leftPadding10 {
+    padding-left: 10px;
+}
+
+.tabGeneralLayout {
+    margin-left: 15px;
+}
+
+#divGeneralLayOutContent .divEvent {
+    position: absolute !important;
+}
+
+#divGeneralLayOutContent {
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+}
+
+#divGeneralLayOutContentBody {
+    position: relative;
+}
+
+.txtproperties {
+    height: 25px !important;
+    font-size: 13px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    margin-bottom: 4px !important;
+}
+
+#tblReportTabs {
+    float: left;
+}
+
+#lblGraphicNumber {
+    display: none;
+}
+
+#divSavedSuccess {
+    display: none;
+}
+
+#spnDeleteField {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.textBox {
+    height: 25px !important;
+    font-size: 13px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    margin-bottom: 4px !important;
+}
+
+#lblDifferentImage {
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+#reportName div:first-child {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#reportTypeName {
+    font-size: 15px;
+    font-weight: bold !important;
+    margin-top: 3px;
+}
+
+#divDropdowns div:nth-child(2) {
+    margin-left: -20px;
+}
+
+#reportName div:nth-child(2) {
+    margin-left: -25px;
+}
+
+#reportName, #divDropdowns {
+    margin-top: 5px;
+}
+
+#designPopOver {
+    margin-top: 4px;
+    padding-left: 0;
+}
+
+#divGeneralBody-Body {
+    max-width: 200px;
+}
+
+#divGeneralGroupingOrSorting-Body {
+    max-width: 442px;
+}
+
+#tblScorecard td:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#tblScorecard td:first-child {
+    width: 192px !important;
+}
+
+#renameReport {
+    /*-webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);*/
+    cursor: pointer;
+    top: 7px;
+    left: -10px;
+}
+
+#tblScorecard tr:first-child td{
+    text-align: center;
+}
+
+.selected {
+    border-color: #FF00A3;
+}
+
+.non-selected {
+    border-color: rgb(211, 211, 211);
+}

@@ -1,0 +1,32 @@
+E:\InternetProj\InternetAdmin\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll
+E:\InternetProj\InternetAdmin\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.pdb
+E:\InternetProj\InternetAdmin\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.dll
+E:\InternetProj\InternetAdmin\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.pdb
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.pdb
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.dll
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.pdb
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll.config
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.dll
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.xml
+D:\Work Env Per\projects\Expense Mgmt\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll.config
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.pdb
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.dll
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.xml
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.dll
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.pdb
+D:\ExpenseApp\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModel.csprojResolveAssemblyReference.cache
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll.config
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\ExpenseModels.pdb
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.xml
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\ExpenseModels\obj\Debug\ExpenseModels.pdb

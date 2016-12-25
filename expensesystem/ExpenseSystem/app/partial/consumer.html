@@ -1,0 +1,42 @@
+﻿<div class="row" style="margin-top:4%">
+    <div class="col-lg-6 col-lg-offset-4 ">
+        <form name="consumerForm" ng-submit="saveConsumer();" class="col-lg-6 col-xs-11 col-md-6  table-bordered">
+            <h3>Consumer</h3>
+            <input type="hidden" id="hidconsumerId" ng-model="consumer.Id" />
+            <div class="form-group">
+                <input name="consumer" required type="text" id="txtConsumer" required tabindex="1" class="form-control" ng-model="consumer.Name" />
+            </div>
+            <div class="form-group">
+                <input type="submit" tabindex="5" class="btn btn-default" value="Save Consumer">
+            </div>
+            <div class="clearfix"></div>
+
+        </form>
+    </div>
+</div>
+
+<div class="container row-fluid">
+    <div class="span12" style="text-align:right;">
+        <input type="button" class="btn btn-primary" value="Add Expense Data" ng-click="ExpensePage()" />
+    </div>
+</div>
+
+<div class="container" ng-show="consumers.length > 0">
+    <h3>Consumers</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="background-color:grey;text-align:center;">Name</th>
+                <th style="background-color:grey;text-align:center;">Edit</th>
+                <th style="background-color:grey;text-align:center;">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="Consume in consumers">
+                <td>{{Consume.Name}}</td>
+                <td><button ng-click="editConsumer(Consume.Id);" class="btn btn-default">Edit</button></td>
+                <td><button ng-click="deleteConsumer(Consume.Id);" class="btn btn-default">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

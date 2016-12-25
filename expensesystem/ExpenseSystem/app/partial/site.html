@@ -1,0 +1,55 @@
+﻿<div id="divLogin" class="row" style="margin-top:4%">
+    <div class="col-lg-6 col-lg-offset-4 ">
+        <form name="siteForm" ng-submit="loginSite();" class="col-lg-6 col-xs-11 col-md-6  table-bordered">
+            <h3>Login In Site</h3>
+            <div class="form-group">
+                <label>Site : </label>
+            </div>
+            <div class="form-group">
+                <input name="site" required type="text" id="txtSite" required tabindex="1" class="form-control" ng-model="site.Name" />
+            </div>
+            <div class="form-group">
+                <label>Password :  </label>
+            </div>
+            <div class="form-group">
+                <input type="password" required tabindex="2" class="form-control" ng-model="site.Password" />
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" tabindex="5" class="btn btn-default" value="Login">
+            </div>
+            <div class="clearfix"></div>
+            
+        </form>
+    </div>
+</div>
+<div id="divRegister" class="row" style="margin-top:4%">
+    <div class="col-lg-6 col-lg-offset-4 ">
+        <form name="siteForm" ng-submit="RegisterSite();" class="col-lg-6 col-xs-11 col-md-6  table-bordered">
+            <h3>Register</h3>        
+            <div class="form-group">
+                <label>Site : </label>
+            </div>
+            <div class="form-group">
+                <input name="site" required type="text" id="txtSite" required tabindex="1" class="form-control" ng-model="site.Name" />
+            </div>
+            <div class="form-group">
+                <label>Password :  </label>
+            </div>
+            <div class="form-group">
+                <input type="password" required tabindex="2" class="form-control" ng-model="site.Password" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" tabindex="5" class="btn btn-default" value="Register">
+            </div>
+            <div class="clearfix"></div>
+
+        </form>
+    </div>
+</div>
+<div class="col-lg-6 col-lg-offset-4 row" style="margin-top:4%">
+    <div class="form-group">
+        <input type="button" tabindex="5" class="btn btn-default" id="btnRegisterLogin" value="Register Here" ng-click="toggleButton();">
+    </div>
+ </div>

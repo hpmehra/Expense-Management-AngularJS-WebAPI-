@@ -1,0 +1,153 @@
+﻿body {
+    width : 100%;
+}
+
+.jumbotron-slideshow {
+        position: relative;
+        background-color: transparent;
+    }
+
+        .jumbotron-slideshow .slideshow {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /* Layer the images so that the visible one is below all the others,
+                * but the previously active one fades out to reveal the visible one
+                 below */
+            transition: opacity 1s;
+            opacity: 0;
+        }
+
+            .jumbotron-slideshow .slideshow.visible {
+                transition: none;
+                opacity: 1;
+                /*z-index: -1;*/
+            }
+
+    .height {
+        height: 100vh;
+        width: 100%;
+    }
+
+
+    .customHW {
+        height: 20%;
+        width: 20%;
+    }
+
+     .customTableHW {
+        height: 50%;
+        width: 25%;
+    }
+
+    .customBorder {
+        border: 2px solid red;
+    }
+
+    .inner-slideshow {
+        position: relative;
+        background-color: transparent;
+    }
+
+        .inner-slideshow .slideshow {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /* Layer the images so that the visible one is below all the others,
+                * but the previously active one fades out to reveal the visible one
+                 below */
+            transition: opacity 1s;
+            opacity: 0;
+        }
+
+            .inner-slideshow .slideshow.visible {
+                transition: none;
+                opacity: 1;
+                z-index: -1;
+            }
+
+
+            .company {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-fluid {
+    padding-bottom: 40px;
+    padding-top: 115px;
+}
+.footerBottomSection {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.footerBottomSection {
+    background: none repeat scroll 0 0 #000;
+    color: #fff;
+    padding: 12px 12px 6px;
+}
+ .btmLogo {
+    height: 35px;
+    margin-top: -8px;
+}
+ .topHeaderSection {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 10px #b6b6b6;
+}         
+ 
+ .row-fluid {
+     padding-top:5px;
+ }
+.menuForeColor{
+    width:100%;
+    text-align:left;
+    color: #858585;
+}
+.uiGridSelectedRow .ui-grid-cell-contents
+{
+  background-color:red;
+}
+.headerfooterHide{
+   display:none;
+}
+.headerfooterPaddingOff{
+   padding-top: 0px!important;
+   padding-bottom: 0px;
+}
+.UIgrid-cell-align{
+    text-align:center;
+}
+.ui-grid-header-cell .ui-grid-cell-contents{
+text-align:center;
+}
+.viewImagePopUp{
+    padding:5px;
+}
+#divGridDataProperties{
+    height:300px;
+}
+
+    .positionAbsolute {
+        position: absolute !important;
+    }
+
+   .marquee {
+  overflow: hidden;
+  min-height:100%;
+  
+}

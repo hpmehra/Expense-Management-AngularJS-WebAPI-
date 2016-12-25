@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+
+    <title>Expense Management app</title>
+    <script src="lib/jquery-2.2.0.min.js"></script>
+    <script src="/app/lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/angular-touch.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+
+    <script src="lib/ui-grid.min.js"></script>
+    <!--<link href="../Content/ng-grid.min.css" rel="stylesheet" />
+    <script src="../Scripts/ng-grid.min.js"></script>-->
+    <link href="css/ui-grid.min.css" rel="stylesheet" />
+    <script src="../Scripts/angular-cookies.min.js"></script>
+    <link href="../Content/alertify/alertify.default.css" rel="stylesheet" />
+    <link href="../Content/alertify/alertify.core.css" rel="stylesheet" />
+    <script src="../Scripts/alertify/alertify.min.js"></script>
+    <link href="../Content/alertify/alertify.bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <script src="ExpenseMgmtApp.js"></script>
+    <script src="ExpenseMgmtRouting.js"></script>
+    <script src="controller/controllers.module.js"></script>
+    <script src="service/services.module.js"></script>
+    <script src="configuration/configuration.module.js"></script>
+    <script src="configuration/applicationConfiguration.js"></script>
+
+    <script src="service/expenseService.js"></script>
+    <script src="controller/expenseController.js"></script>
+
+    <script src="service/siteService.js"></script>
+    <script src="controller/siteController.js"></script>
+
+    <script src="service/consumerService.js"></script>
+    <script src="controller/consumerController.js"></script>
+
+    <script src="controller/expenseReportController.js"></script>
+
+
+</head>
+
+<body>
+    <div>
+        <div ng-app="ExpenseMgmtApp">
+            <div class="jumbotron" style="text-align:center; height:160px">
+                <h2 style="margin-top:-8px; font-family:'Lucida Fax'; font-size:50px">Expense Management System</h2>
+
+            </div>
+            <div>
+               
+                <div id="ng-scope" ng-view=""></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

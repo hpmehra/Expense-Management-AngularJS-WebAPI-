@@ -1,0 +1,7 @@
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\obj\Debug\IExpenseBusiness.csprojResolveAssemblyReference.cache
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\bin\Debug\IExpenseBusiness.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\bin\Debug\IExpenseBusiness.pdb
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\bin\Debug\ExpenseModels.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\bin\Debug\ExpenseModels.pdb
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\obj\Debug\IExpenseBusiness.dll
+D:\Work Env Per\projects\Expense Mgmt\v2\ExpenseLibrary\IExpenseBusiness\obj\Debug\IExpenseBusiness.pdb
